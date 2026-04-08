@@ -1,5 +1,5 @@
 import React from 'react';
-import BookItem from '../BookItem/BookItem';
+import BookItem from '../bookItem/BookItem';
 
 const Books = ({ books }) => {
     return (

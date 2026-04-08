@@ -70,7 +70,7 @@ const NewBook = ({ onBookAdded }) => {
                                     value={title}
                                     onChange={handleTitleChange}
                                 />
-                            </Form.Group>
+                            </Form.Group>-ca
                         </Col>
                         <Col md={6}>
                             <Form.Group className="mb-3" controlId="author">
