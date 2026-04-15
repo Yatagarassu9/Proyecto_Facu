@@ -14,15 +14,14 @@ function App() {
     <BrowserRouter>
       <Routes>
 
-        {/* Ruta pública */}
+        
         <Route path="/login" element={<Login setIsLoggedIn={setIsLoggedIn} />} />
 
-        {/* Rutas protegidas */}
+      
         <Route element={<Protected isSignedIn={isLoggedIn} />}>
           <Route path="/library/*" element={<Dashboard setIsLoggedIn={setIsLoggedIn} />} />
         </Route>
 
-        {/* Ruta 404 */}
         <Route path="*" element={<NotFound />} />
 
       </Routes>

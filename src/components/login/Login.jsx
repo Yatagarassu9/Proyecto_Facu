@@ -28,10 +28,10 @@ const Login = ({ setIsLoggedIn }) => {
             return;
         }
 
-        // Login OK
+
         setIsLoggedIn(true);
 
-        // Redirigir
+
         navigate("/library");
     };
 

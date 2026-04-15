@@ -81,7 +81,7 @@ const Dashboard = ({ setIsLoggedIn }) => {
     return (
         <div>
 
-            {/* BOTÓN LOGOUT */}
+            
             <div style={{ display: "flex", justifyContent: "flex-end" }}>
                 <button onClick={handleLogout}>
                     Cerrar sesión
